@@ -1,0 +1,40 @@
+{
+  "name": "hello-world",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./bin/www & webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "node ./bin/www & webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "~1.4.5",
+    "debug": "~4.1.1",
+    "express": "~4.17.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.10.0",
+    "pug": "3.0.0",
+    "validator": "^13.5.2",
+    "animejs": "^3.2.1",
+    "bootstrap": "^4.5.2",
+    "development": "0.0.6",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "popular-movie-quotes": "^1.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
